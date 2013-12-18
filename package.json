@@ -1,0 +1,43 @@
+{
+  "name": "disqus2duoshuo",
+  "description": "disqus to duoshuo migration",
+  "version": "0.0.1",
+  "homepage": "https://github.com/gyk001/disqus2duoshuo",
+  "author": {
+    "name": "gyk001",
+    "email": "gyk001@gmail.com",
+    "url": "http://www.guoyukun.cn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gyk001/disqus2duoshuo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gyk001/disqus2duoshuo/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/gyk001/disqus2duoshuo/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/disqus2duoshuo",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "dependencies": {
+    "xml2js": "*",
+    "graceful-fs": "*",
+    "underscore": "*"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.2"
+  },
+  "keywords": []
+}
